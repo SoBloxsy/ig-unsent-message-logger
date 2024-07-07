@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Message Logger for ig
 // @namespace    https://github.com/SoBloxsy/ig-unsent-message-logger
-// @version      1.2
+// @version      1.21
 // @description  Automatically backup messages when added, and restore backup when deleted
 // @author       Irenfw
 // @match        https://www.instagram.com/direct/*
@@ -37,7 +37,7 @@
             // Find the child div with aria-label="Double tap to like" and apply outline
             let targetChild = backupDiv.querySelector('div[aria-label="Double tap to like"]');
             if (targetChild) {
-                targetChild.style.outline = "1px solid red"; // Add outline to target child div
+                targetChild.style.outline = "1px dashed gray"; // Add outline to target child div
             }
 
             if (backup.nextSibling) {
