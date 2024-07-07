@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Message Logger for ig
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Automatically backup messages when added, and restore backup when deleted
 // @author       Irenfw
 // @match        https://www.instagram.com/direct/*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/yourusername/yourrepository/main/path/to/your/script.user.js
-// @downloadURL  https://raw.githubusercontent.com/yourusername/yourrepository/main/path/to/your/script.user.js
+// @updateURL    https://raw.githubusercontent.com/SoBloxsy/ig-unsent-message-logger/main/script.js
+// @downloadURL  https://raw.githubusercontent.com/SoBloxsy/ig-unsent-message-logger/main/script.js
 // ==/UserScript==
 
 (function() {
