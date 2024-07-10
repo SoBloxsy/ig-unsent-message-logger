@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Message Logger for ig
 // @namespace    https://github.com/SoBloxsy/ig-unsent-message-logger
-// @version      1.21
+// @version      1.25
 // @description  Automatically backup messages when added, and restore backup when deleted
 // @author       Irenfw
 // @match        https://www.instagram.com/direct/*
