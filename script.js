@@ -46,6 +46,7 @@
                 backup.parent.appendChild(backupDiv); // Append to the parent if no next sibling
             }
             console.log('Backup restored for div:', divId);
+            console.log(backupDiv)
         }
     }
 
